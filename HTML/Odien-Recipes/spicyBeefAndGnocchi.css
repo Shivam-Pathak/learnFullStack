@@ -286,17 +286,17 @@ body   {
 
 @font-face {
     font-family: "Yuji Mai";
-    src: url(resources/yujiMai.ttf);   
+    src: url(./resources/yujiMai.ttf);   
 }
 @font-face {
     font-family: "Comfortaa";
-    src: url(resources/comfortaa.ttf);   
+    src: url(./resources/comfortaa.ttf);   
 }
 @font-face {
     font-family: "Arvo";
-    src: url(resources/arvo.ttf);
+    src: url(./resources/arvo.ttf);
 }
 @font-face {
     font-family: "Amethysta";
-    src: url(resources/amethysta.ttf)
+    src: url(./resources/amethysta.ttf)
 }

@@ -227,65 +227,9 @@ body    {
     animation-delay: 2.8s;
 }
 
-#shitpost {
-    display: none;
-    position: absolute;
-    width: 4em;
-    height: 1em;
-    pointer-events: auto;
-}
-
-.gimmeFood {
-    position: relative;
+#shivam {
+    text-decoration: none;
     color: white;
-    background: black;
-    top: 3.6em;
-    width: 15em;
-    opacity: 0;
-    text-align: center;
-    pointer-events: none;
-
-}
-
-#yuyuko {
-    position: absolute;
-    width: 5em;
-    overflow: hidden;
-    top: 0;
-}
-
-#shitpost:hover > .gimmeFood{
-    transition: 130s linear;
-    top: 14.5em;
-    font-size: 10em;
-    animation: appear 4s 1s forwards;
-}
-
-#yuyuko:hover{
-    transition: 130s linear;
-    width: 190em;
-}
-
-#yuyukoTitle {
-    position: absolute;
-    width: 100%;
-    font-family: "Norse";
-    letter-spacing: 0.04em;
-    font-size: 5vw;
-    color: rgb(236, 218, 139);
-    margin: 0.3em 0 0 6em;
-    width: 6em;
-    text-align: center;
-    left: 1em;
-    top: 0.05em;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#shitpost:hover > #yuyukoTitle {
-    opacity: 1;
-    transition: 2s;
-    background: rgb(182, 159, 97);
 }
 
 @keyframes intro {
